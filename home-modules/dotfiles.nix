@@ -11,6 +11,8 @@ let
 
   # Must-be mutable configuration files for switchwall.sh
   mutableFiles = [
+    "hypr/hyprland/general.lua"
+    "hypr/hyprland/keybinds.lua"
     "hypr/hyprland/colors.lua"
     "hypr/hyprlock/colors.conf"
     "fuzzel/fuzzel_theme.ini"
@@ -25,9 +27,6 @@ in
 {
   options.programs.illogical-impulse.dotfiles = {
     fish.enable = mkEnableOption "Use the Illogical Impulse fish config" // { default = false; };
-    kitty.enable = mkEnableOption "Install kitty and use the Illogical Impulse kitty config" // { default = false; };
-    starship.enable = mkEnableOption "Install starship and use the Illogical Impulse prompt" // { default = false; };
-    zsh.enable = mkEnableOption "Use the Illogical Impulse zsh config (package not affected)" // { default = true; };
   };
 
   options.programs.illogical-impulse.hyprland = {
@@ -143,9 +142,7 @@ in
       '';
       # hypr/hyprland/colors.lua is mutable
       "hypr/hyprland/execs.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/execs.lua";
-      "hypr/hyprland/general.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/general.lua";
       "hypr/hyprland/monitors.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/monitors.lua";
-      "hypr/hyprland/keybinds.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/keybinds.lua";
       "hypr/hyprland/rules.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/rules.lua";
       "hypr/hyprland/variables.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/variables.lua";
       "hypr/hyprland/lib".source = "${dotfilesSource}/dots/.config/hypr/hyprland/lib";
