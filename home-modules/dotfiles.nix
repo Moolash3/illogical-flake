@@ -12,7 +12,6 @@ let
   # Must-be mutable configuration files for switchwall.sh
   mutableFiles = [
     "hypr/hyprland/general.lua"
-    "hypr/hyprland/keybinds.lua"
     "hypr/hyprland/colors.lua"
     "hypr/hyprlock/colors.conf"
     "fuzzel/fuzzel_theme.ini"
@@ -141,7 +140,9 @@ in
       '';
       # hypr/hyprland/colors.lua is mutable
       "hypr/hyprland/execs.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/execs.lua";
+      "hypr/hyprland/general.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/general.lua";
       "hypr/hyprland/monitors.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/monitors.lua";
+      "hypr/hyprland/keybinds.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/keybinds.lua";
       "hypr/hyprland/rules.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/rules.lua";
       "hypr/hyprland/variables.lua".source = "${dotfilesSource}/dots/.config/hypr/hyprland/variables.lua";
       "hypr/hyprland/lib".source = "${dotfilesSource}/dots/.config/hypr/hyprland/lib";
