@@ -61,6 +61,7 @@ in
       libqalculate
       ripgrep
       jq
+      bibata-cursors
 
       # GUI applications
       foot
