@@ -70,7 +70,6 @@ in
         end
       '';
     };
-    programs.starship.enable = cfg.dotfiles.starship.enable;
 
     # Symlink standard icon themes (Adwaita)
     home.file.".local/share/icons/Adwaita".source = "${pkgs.adwaita-icon-theme}/share/icons/Adwaita";
