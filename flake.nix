@@ -1,5 +1,5 @@
 {
-  description = "Illogical Impulse - Home-manager module for end-4's Hyprland dotfiles with QuickShell.";
+  description = "Illogical Impulse - Home-manager module for end-4's Hyprland dotfiles with QuickShell";
 
   inputs = {
     # These will be overridden by the user's flake
