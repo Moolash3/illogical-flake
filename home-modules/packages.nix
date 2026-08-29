@@ -62,6 +62,7 @@ in
       ripgrep
       jq
       bibata-cursors
+      libdrm
 
       # GUI applications
       foot
