@@ -3,19 +3,19 @@
     "dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1778966846,
-        "narHash": "sha256-N7HUWD3dliyPDXA5qXhuma5segnnopgPo2nv5iFaeXc=",
+        "lastModified": 1781716514,
+        "narHash": "sha256-/RZK1Vt0CpuWv0/W/lLGBfTBMpmMKqfgoDugaYsBlbg=",
         "ref": "refs/heads/main",
-        "rev": "c0706258b1ff22c70f6c0e51c4b812e63703f620",
-        "revCount": 6244,
+        "rev": "6f50db148f9d89bb1cc0790477a29d377845a404",
+        "revCount": 6293,
         "submodules": true,
         "type": "git",
-        "url": "https://github.com/end-4/dots-hyprland"
+        "url": "https://github.com/Moolash3/dots-hyprland"
       },
       "original": {
         "submodules": true,
         "type": "git",
-        "url": "https://github.com/end-4/dots-hyprland"
+        "url": "https://github.com/Moolash3/dots-hyprland"
       }
     },
     "flake-parts": {
@@ -41,11 +41,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1778869304,
-        "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
+        "lastModified": 1792502884,
+        "narHash": "sha256-IoNisKcGbUjdd45qCqywGMCYmZ5EnkxezvLII0FWwNA=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d233902339c02a9c334e7e593de68855ad26c4cb",
+        "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
         "type": "github"
       },
       "original": {
@@ -63,11 +63,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779066378,
-        "narHash": "sha256-GqKhLVZTmZa68mLlCat57m54aeYPhrNAPVTLd2pGKYk=",
+        "lastModified": 1792860309,
+        "narHash": "sha256-AtlfQDdsZWlenr7tKCFT9gHKf8RGD4TN/mvntRDTCtE=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "ab477ab3a75a85a68a80d9d26a572f9de9742808",
+        "rev": "a539c26afaf1cda04dd5a7191869eea9db9402b2",
         "type": "github"
       },
       "original": {
@@ -83,11 +83,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1778488696,
-        "narHash": "sha256-QSWgYuZUCNUJ/cxmaq83WkcT7lHQDDfsPVgH+96kIl0=",
+        "lastModified": 1792651682,
+        "narHash": "sha256-TiCGqLMpNIy7FERewgfKVluPsLVF96uc6x6xwZnMjdQ=",
         "ref": "refs/heads/master",
-        "rev": "7d1c9a9c6721606b129829134d6f614f015621e2",
-        "revCount": 818,
+        "rev": "9b0f339b19057f4731bf3b48293307d7ef241671",
+        "revCount": 879,
         "type": "git",
         "url": "https://git.outfoxxed.me/outfoxxed/quickshell"
       },
